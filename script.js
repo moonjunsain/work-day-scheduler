@@ -49,7 +49,16 @@ $(function () {
   // the values of the corresponding textarea elements. HINT: How can the id
   // attribute of each time-block be used to do this?
 
-  
+  // iterate from 9 to 17 to apply changes for all time blocks
+  for(var i = 9; i < 18; i++){
+    var currentTextArea = timeBlocks.eq(i-9).children(".description");
+    // if hour-i key has some value stored in local storage
+    if(localStorage.getItem("hour-"+i)){
+      currentTextArea.val(localStorage.getItem("hour-"+i));
+    }
+    // if it doesn't exist, it doesn't do anything
+  }
+
   //
   // TODO: Add code to display the current date in the header of the page.
 
