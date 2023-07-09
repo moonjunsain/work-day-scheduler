@@ -6,6 +6,7 @@
 - css - given by bootcamp
 - jQuery
 - Day.js
+- bootstrap - given by bootcamp
 - [ezgif](https://ezgif.com/): to convert a screen recording to gif file for demo listed here.
 
 ## Description 
