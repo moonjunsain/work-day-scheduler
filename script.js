@@ -12,13 +12,13 @@ $(function () {
     // user input is siblings of that clicked element with class name "description"
     var userInput = $(this).siblings(".description").val();
 
-    // save the value to localstorage with key value same as id
+    // save the value to local storage with key value same as id
     localStorage.setItem($(this).parent().attr("id"), userInput);
   })
   
   // iterate through all the time blocks and compare its id with current time
   for(var i = 0; i < timeBlocks.length; i++){
-    // varible for current time block that's being compared everytime loop iterates
+    // variable for current time block that's being compared every time loop iterates
     var selectedHour = i+9
 
     // if the selected time is past
@@ -37,6 +37,7 @@ $(function () {
 
   }
 
+  
 
   // iterate from 9 to 17 to apply changes for all time blocks
   for(var i = 9; i < 18; i++){

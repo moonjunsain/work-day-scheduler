@@ -32,7 +32,7 @@ This was done while trying to accomplish following criteria:
 
 
 
-[Deployed Wepsite](https://moonjunsain.github.io/work-day-scheduler/)
+[Deployed Website](https://moonjunsain.github.io/work-day-scheduler/)
 
 
 
