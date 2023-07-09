@@ -3,7 +3,7 @@ $(function () {
   // variables for current day, and hour when the user opens the page
   var currentDay = dayjs().format("MMM-DD-YYYY h:m:s");
   var currentHour = dayjs().hour();
-
+  
   // variable that selects all elements with class "time-block"
   var timeBlocks = $(".time-block");
 
