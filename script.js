@@ -11,7 +11,6 @@ $(function () {
   timeBlocks.children(".saveBtn").on("click", function(){
     // user input is siblings of that clicked element with class name "description"
     var userInput = $(this).siblings(".description").val();
-
     // save the value to local storage with key value same as id
     localStorage.setItem($(this).parent().attr("id"), userInput);
   })
